@@ -23,6 +23,8 @@
             <asp:TextBox ID="password_txt" runat="server"></asp:TextBox>
             <br />
             <asp:Button ID="update_btn" runat="server" Text="Update" OnClick="update_btn_Click" />
+            <br />
+            <asp:Label ID="status" runat="server" Text="Label"></asp:Label>
         </div>
     </form>
 </body>
