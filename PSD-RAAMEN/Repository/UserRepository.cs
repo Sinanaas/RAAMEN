@@ -25,7 +25,11 @@ namespace PSD_RAAMEN.Repository
 
         public static void updateUser(int id, string username, string email, string gender, string password)
         {
-            User user = db.Users.Find(id);
+            //User user = db.Users.Find(id);
+            //User user = (from x in db.Users where x.User_Id.Equals(id) select x).FirstOrDefault();
+            int c = (from x in db.Users where x.User_Id.Equals(id) select x.User_Id).ToList().FirstOrDefault();
+            User user = db.Users.Find(c);
+            //User user = db.Users.Find(id);
             user.Username = username;
             user.Password = password;
             user.Gender = gender;
