@@ -9,7 +9,7 @@ namespace PSD_RAAMEN.Repository
 {
     public class UserRepository
     {
-        static DatabaseEntities db = new DatabaseEntities();
+        static DatabaseEntities1 db = new DatabaseEntities1();
 
         public static void insert(User user)
         {

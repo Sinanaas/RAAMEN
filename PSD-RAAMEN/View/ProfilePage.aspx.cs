@@ -13,7 +13,7 @@ namespace PSD_RAAMEN.View
 {
     public partial class ProfilePage : System.Web.UI.Page
     {
-        DatabaseEntities db = new DatabaseEntities();
+        DatabaseEntities1 db = new DatabaseEntities1();
         protected void Page_Load(object sender, EventArgs e)
         {
             //int user_id = (int)Session["uid"];

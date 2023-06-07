@@ -12,7 +12,7 @@ namespace PSD_RAAMEN.View
 {
     public partial class Login : System.Web.UI.Page
     {
-        static DatabaseEntities db = new DatabaseEntities();
+        static DatabaseEntities1 db = new DatabaseEntities1();
         protected void Page_Load(object sender, EventArgs e)
         {
             HttpCookie cookie = Request.Cookies["UserInfo"];
