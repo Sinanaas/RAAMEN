@@ -1,0 +1,27 @@
+﻿body {
+    font-size:18px;
+}
+
+#form1 {
+    padding: 2% 2% 2% 2%;
+    width:20%;
+    margin-left:40%;
+    margin-right:40%;
+}
+
+.content {
+    text-align:justify;
+}
+
+#login_btn {
+    margin: 3% 2% 0% 0%;
+    font-size: 16px;
+}
+
+#username_text {
+    margin-bottom: 2%;
+}
+
+#password_text {
+    margin-bottom: 2%;
+}
